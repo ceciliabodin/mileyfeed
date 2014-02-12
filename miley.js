@@ -9,3 +9,8 @@ window.addEventListener('load', function(){
 }, false);
 
 // Add more supporting code here!
+
+document.addEventListener('swagreceived', function(event){
+	var usrname = event.handle;
+	var test = event.text;
+})
